@@ -1,0 +1,210 @@
+{
+  "camera_intrinsics": {
+    "fx": 1113.178,
+    "fy": 1112.932,
+    "cx": 660.693,
+    "cy": 473.587,
+    "width": 1280,
+    "height": 960
+  },
+  "prompt": "pallet",
+  "num_objects": 2,
+  "poses": [
+    {
+      "object_index": 0,
+      "frame": "camera",
+      "translation_center_mm": [
+        449.9683248446985,
+        -166.753720463459,
+        2284.092941592449
+      ],
+      "translation_origin_mm": [
+        864.9462996933105,
+        412.7270381299127,
+        2056.0
+      ],
+      "rotation_cam_from_obj": [
+        [
+          -0.03897989032396948,
+          -0.9992180490006463,
+          0.00662259025407787
+        ],
+        [
+          -0.9192112910326375,
+          0.033258338089368046,
+          -0.3923575988631351
+        ],
+        [
+          0.3918305381009025,
+          -0.021381615908892104,
+          -0.9197889192160785
+        ]
+      ],
+      "extent_mm": [
+        1337.4164387485785,
+        882.5918375100271,
+        205.69952025974885
+      ],
+      "volume_liters": 242.80623929978108,
+      "axis_length_mm": 220.0,
+      "origin_type": "selected_origin_corner",
+      "selected_corner_idx": 3,
+      "selected_corner_3d_mm": [
+        864.9462996933105,
+        412.7270381299127,
+        2056.0
+      ],
+      "selected_corner_uv_px": [
+        1129,
+        697
+      ],
+      "corners_3d_mm": [
+        [
+          814.8076228599558,
+          -769.6271829725446,
+          2560.0
+        ],
+        [
+          -19.757208640486926,
+          -712.8693487113319,
+          2530.0
+        ],
+        [
+          71.50399576707412,
+          472.00666797252666,
+          2025.0
+        ],
+        [
+          864.9462996933105,
+          412.7270381299127,
+          2056.0
+        ]
+      ],
+      "corners_uv_px": [
+        [
+          1015,
+          139
+        ],
+        [
+          652,
+          160
+        ],
+        [
+          700,
+          733
+        ],
+        [
+          1129,
+          697
+        ]
+      ],
+      "corners_visible": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "pose_points_path": "data/picaulo/capture4/outputs/pallet_pose_points_00.ply",
+      "point_cloud_path": "data/picaulo/capture4/outputs/pallet_segment_00.ply",
+      "mesh_path": "data/picaulo/capture4/outputs/pallet_obb_mesh_00.ply"
+    },
+    {
+      "object_index": 1,
+      "frame": "camera",
+      "translation_center_mm": [
+        -653.7337155321356,
+        -94.92701663675916,
+        2232.603878071083
+      ],
+      "translation_origin_mm": [
+        -192.7135247013505,
+        482.21337512085194,
+        1992.0
+      ],
+      "rotation_cam_from_obj": [
+        [
+          -0.05949942791063116,
+          -0.9982148729134981,
+          -0.005185129949815681
+        ],
+        [
+          -0.9447195921211714,
+          0.057987088062865164,
+          -0.3227110005568405
+        ],
+        [
+          0.3224355909956517,
+          -0.014302626062314243,
+          -0.9464833461540707
+        ]
+      ],
+      "extent_mm": [
+        1325.7217425561676,
+        882.0961716093988,
+        188.92975026027443
+      ],
+      "volume_liters": 220.93710890030695,
+      "axis_length_mm": 220.0,
+      "origin_type": "selected_origin_corner",
+      "selected_corner_idx": 3,
+      "selected_corner_3d_mm": [
+        -192.7135247013505,
+        482.21337512085194,
+        1992.0
+      ],
+      "selected_corner_uv_px": [
+        553,
+        743
+      ],
+      "corners_3d_mm": [
+        [
+          -264.68069437232856,
+          -660.466438201076,
+          2382.0
+        ],
+        [
+          -1106.1056560585996,
+          -654.8542390730072,
+          2474.0
+        ],
+        [
+          -987.6241948726978,
+          524.3146625310441,
+          1982.0
+        ],
+        [
+          -192.7135247013505,
+          482.21337512085194,
+          1992.0
+        ]
+      ],
+      "corners_uv_px": [
+        [
+          537,
+          165
+        ],
+        [
+          163,
+          179
+        ],
+        [
+          106,
+          768
+        ],
+        [
+          553,
+          743
+        ]
+      ],
+      "corners_visible": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "pose_points_path": "data/picaulo/capture4/outputs/pallet_pose_points_01.ply",
+      "point_cloud_path": "data/picaulo/capture4/outputs/pallet_segment_01.ply",
+      "mesh_path": "data/picaulo/capture4/outputs/pallet_obb_mesh_01.ply"
+    }
+  ]
+}
